@@ -6,8 +6,10 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 function Team() {
   return (
     <div>
-      <h2 class="teamTitle">Meet Our Team</h2>
-      <h2 class="teamLower">of Dedicated Headshots</h2>
+      <div>
+        <h2 class="teamTitle">Meet Our Team</h2>
+        <h2 class="teamLower">of Dedicated Headshots</h2>
+      </div>
       <OwlCarousel
         loop={true}
         margin={5}

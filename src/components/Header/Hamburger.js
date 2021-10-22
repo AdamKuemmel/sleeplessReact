@@ -35,11 +35,7 @@ function Hamburger() {
         </div>
       </div>
 
-      <img
-        class="tree"
-        src="./img/logo_horizontal_full-color.png"
-        alt="treeLogo"
-      />
+      <img class="tree" src="./img/Group 5.png" alt="treeLogo" />
     </>
   );
 }
