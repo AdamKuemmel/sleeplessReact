@@ -2,7 +2,7 @@
 
 ## Description
 
-This project represents the Sleepless tester homepage. Different from the native test, this one was built using react. The navbar and Team scroller both had to be changed because of the use of jQuery. The navbar feature will render a different component based on what size viewport you LOAD the page on so chrome dev tools will not work to show hamburger animations unless the page is loaded with a smaller viewport(hit refresh, should do it). All features and code were written by Adam Kuemmel and no bootstrap was used. Some key features include:
+This project represents the Sleepless tester homepage. Different from the native test, this one was built using react. The navbar and Team scroller both had to be changed because of the use of jQuery. The navbar feature will render a different component based on what size viewport you LOAD the page on so chrome dev tools will not work to show hamburger animations unless the page is loaded with a smaller viewport(hit refresh while in desired viewport, should do it). All features and code were written by Adam Kuemmel and no bootstrap was used. Some key features include:
 
 ```
   WHEN the user scrolls
