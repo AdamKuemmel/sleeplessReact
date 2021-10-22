@@ -17,16 +17,19 @@ function Hamburger() {
               <div>
                 <ul>
                   <li>
-                    <a href="#">Home</a>
-                  </li>
-                  <li>
-                    <a href="#">About</a>
+                    <a href="#">Our Mission</a>
                   </li>
                   <li>
                     <a href="#">Services</a>
                   </li>
                   <li>
-                    <a href="#">Contact</a>
+                    <a href="#">Our Team</a>
+                  </li>
+                  <li>
+                    <a href="#">New Patients</a>
+                  </li>
+                  <li>
+                    <a href="#">Get In Touch</a>
                   </li>
                 </ul>
               </div>

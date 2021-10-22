@@ -45,7 +45,7 @@ function Team() {
         <div class="item">
           <div class="teamCard">
             <img class="cardImage" src="./img/slide2.png" alt="adam" />
-            <h2 class="teamTitle2">Adam Kuemmel, Web Developer</h2>
+            <h2 class="teamTitle2">Adam Kuemmel, Developer</h2>
             <p class="teamWords">
               Adam Kuemmel lead the build on the Sleepless Test homepage. It is
               comletely responsive to tablet and mobile. Also it includes some

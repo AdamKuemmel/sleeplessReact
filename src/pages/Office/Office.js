@@ -48,7 +48,7 @@ function Office() {
               </p>
             </div>
           </article>
-          <a href="#" class="button1 mobileMoreAbout">
+          <a href="#" class="button mobileMoreAbout">
             <button type="button" name="moreButton" class="learnMoreButton">
               More About Websites
             </button>

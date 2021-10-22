@@ -4,9 +4,17 @@
   margin: 0;
   width: auto;
   font-family: "Helvetica", sans-serif;
+  background: #f9f8f4;
 }
 
-/* STYLES TO CREATe HEADER */
+/*888  888 8888888888        d8888 8888888b.  8888888888 8888888b.  
+888    888 888              d88888 888  "Y88b 888        888   Y88b 
+888    888 888             d88P888 888    888 888        888    888 
+8888888888 8888888        d88P 888 888    888 8888888    888   d88P 
+888    888 888           d88P  888 888    888 888        8888888P"  
+888    888 888          d88P   888 888    888 888        888 T88b   
+888    888 888         d8888888888 888  .d88P 888        888  T88b  
+888    888 8888888888 d88P     888 8888888P"  8888888888 888   T88b  */
 header {
   position: fixed;
 
@@ -17,7 +25,7 @@ header {
   padding: 39px 8%;
   z-index: 1000;
   transition: 0.6s;
-  background-color: #fff;
+  background-color: #f9f8f4;
 }
 .nav-item {
   width: 125px;
@@ -39,14 +47,16 @@ header {
   top: 2%;
   height: 7%;
   transition: 0.6s;
+  background: transparent;
 }
 .navSleep {
   padding-right: 5%;
   position: fixed;
   left: 13%;
-  top: 3%;
-  height: 5%;
+  top: 4%;
+  height: 4%;
   transition: 0.6s;
+  background: transparent;
 }
 header ul {
   position: relative;
@@ -72,20 +82,20 @@ header ul li a {
 }
 
 ul li a:hover {
-  background: #fff;
+  background: #f9f8f4;
   border-bottom: 2px black;
   opacity: 0.2;
   transition: 0.6s;
 }
 .sticky {
   padding: 8px 0px;
-  background: #fff;
+  background: #f9f8f4;
   opacity: 0.7;
   transition: 0.6s;
 }
 .navTitle {
-  color: #edf1cf;
-  background-color: #fff;
+  color: #f9f8f4;
+  background-color: #f9f8f4;
   padding-right: 3%;
   position: fixed;
   left: 0;
@@ -101,6 +111,13 @@ ul li a:hover {
 .nav-item {
   text-align: center;
 }
+/*######     #    ######  ######     #    #          #    #     # 
+ #     #   # #   #     # #     #   # #   #         # #    #   #  
+ #     #  #   #  #     # #     #  #   #  #        #   #    # #   
+ ######  #     # ######  ######  #     # #       #     #    #    
+ #       ####### #   #   #   #   ####### #       #######   # #   
+ #       #     # #    #  #    #  #     # #       #     #  #   #  
+ #       #     # #     # #     # #     # ####### #     # #     # */
 
 /* STYLES TO CREATE PARALLAX */
 .div {
@@ -112,6 +129,12 @@ ul li a:hover {
   background-image: url(./img/sleepless-office-decor_116.png);
   background-size: cover;
 }
+/*██ ███ ██ ███████ ██████   ██████          ██     ██  ██████  ██████  ██████  ███████ 
+██ ████   ██ ██      ██   ██ ██    ██         ██     ██ ██    ██ ██   ██ ██   ██ ██      
+██ ██ ██  ██ ███████ ██████  ██    ██         ██  █  ██ ██    ██ ██████  ██   ██ ███████ 
+██ ██  ██ ██      ██ ██      ██    ██         ██ ███ ██ ██    ██ ██   ██ ██   ██      ██ 
+██ ██   ████ ███████ ██       ██████           ███ ███   ██████  ██   ██ ██████  ███████ */
+
 /* INSPO WORDS */
 .inspoContainer {
   text-align: center;
@@ -128,7 +151,11 @@ ul li a:hover {
   font-weight: 100;
   letter-spacing: 3px;
 }
-
+/*██████████  ██ ██ ███    ██ ██   ██     ████████  █████  ███    ██ ██   ██ 
+   ██    ██   ██ ██ ████   ██ ██  ██         ██    ██   ██ ████   ██ ██  ██  
+   ██    ███████ ██ ██ ██  ██ █████          ██    ███████ ██ ██  ██ █████   
+   ██    ██   ██ ██ ██  ██ ██ ██  ██         ██    ██   ██ ██  ██ ██ ██  ██  
+   ██    ██   ██ ██ ██   ████ ██   ██        ██    ██   ██ ██   ████ ██   ██ */
 /* THINK TANK */
 .thinkContainer {
   display: flex;
@@ -138,7 +165,7 @@ ul li a:hover {
   background-color: transparent;
 }
 .color {
-  background-image: linear-gradient(#fff, beige);
+  background: #f9f8f4;
 }
 .buildingTitle {
   margin-bottom: 3%;
@@ -151,7 +178,7 @@ ul li a:hover {
 
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 .thinkCard {
   margin-right: 20px;
@@ -187,6 +214,12 @@ ul li a:hover {
   display: none;
   visibility: hidden;
 }
+/*█████████     ██ ██████  ███████ ███████ ██   ██  ██████  ██     ██ 
+██      ██      ██ ██   ██ ██      ██      ██   ██ ██    ██ ██     ██ 
+███████ ██      ██ ██   ██ █████   ███████ ███████ ██    ██ ██  █  ██ 
+     ██ ██      ██ ██   ██ ██           ██ ██   ██ ██    ██ ██ ███ ██ 
+███████ ███████ ██ ██████  ███████ ███████ ██   ██  ██████   ███ ███ */
+
 /* styling for team slideshow */
 .teamContainer {
   display: flex;
@@ -201,7 +234,7 @@ ul li a:hover {
 
 .owl-carousel .item {
   text-align: center;
-  max-width: 200px;
+  max-width: 225px;
 }
 
 .owl-carousel .nav-button {
@@ -234,13 +267,13 @@ ul li a:hover {
 }
 .teamTitle {
   padding-top: 10%;
-  margin-left: 3%;
+  margin-left: 7%;
   font-size: 38px;
   font-weight: 300;
 }
 .teamLower {
   margin-bottom: 5%;
-  margin-left: 3%;
+  margin-left: 7%;
   font-size: 38px;
   font-weight: 300;
 }
@@ -268,15 +301,21 @@ ul li a:hover {
 }
 .teamCard {
   margin: 0 10px;
-  text-align: justify;
+  text-align: left;
 }
 .teamWords {
   font-size: 14px;
   font-weight: 100;
 }
+
+/*██████ ██████   ██████  ███    ███ ███████ 
+██   ██ ██    ██ ██    ██ ████  ████ ██      
+██████  ██    ██ ██    ██ ██ ████ ██ ███████ 
+██   ██ ██    ██ ██    ██ ██  ██  ██      ██ 
+██   ██  ██████   ██████  ██      ██ ███████  */
 /* styling for rooms section */
 .color2 {
-  background-color: beige;
+  background-color: #f9f8f4;
 }
 .roomContainer {
   display: flex;
@@ -294,8 +333,17 @@ ul li a:hover {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+.roomTop {
+  display: flex;
+  justify-content: space-between;
+}
 .room {
-  padding: 20px;
+  padding: 33px;
+  height: 39vh;
+}
+.room1 {
+  padding: 33px;
+  max-width: 435px;
 }
 .roomText {
   margin-top: 12%;
@@ -309,7 +357,11 @@ ul li a:hover {
   font-weight: 300;
   margin-bottom: 25vh;
 }
-
+/*█████████████   ██████  ████████ ███████ ██████  
+██      ██    ██ ██    ██    ██    ██      ██   ██ 
+█████   ██    ██ ██    ██    ██    █████   ██████  
+██      ██    ██ ██    ██    ██    ██      ██   ██ 
+██       ██████   ██████     ██    ███████ ██   ██ */
 /* footer */
 .footer {
   background: #355556;
@@ -320,25 +372,41 @@ ul li a:hover {
 }
 .center {
   padding: 30px 0;
+  background: #355556;
 }
 .footerLinks {
   margin-top: 3%;
   display: flex;
   flex-direction: column;
+  background: #355556;
+}
+.mobileFooter {
+  background: #355556;
 }
 .footerTitle {
   font-size: 38px;
   font-weight: 200;
   margin-top: 6%;
+  background: #355556;
 }
 .footerWords {
   font-size: 14px;
   color: whitesmoke;
   margin: 15px 10px;
   text-decoration: none;
+  background: #355556;
 }
+
 .button2 {
   height: 30px;
+  background: #355556;
+}
+.button1 {
+  height: 30px;
+  background: #355556;
+}
+.footerColor {
+  background: #355556;
 }
 .footerButton {
   width: 250px;
@@ -357,8 +425,14 @@ ul li a:hover {
 .copyFooter {
   font-size: 10px;
   color: gray;
+  background: #355556;
 }
 
+/*███  ███  ██████  ██████  ██ ██      ███████ 
+████  ████ ██    ██ ██   ██ ██ ██      ██      
+██ ████ ██ ██    ██ ██████  ██ ██      █████   
+██  ██  ██ ██    ██ ██   ██ ██ ██      ██      
+██      ██  ██████  ██████  ██ ███████ ███████ */
 /* !!!!!!!!!!!MOBILE THINGS!!!!!!!!!!! */
 
 @media screen and (max-width: 768px) {
@@ -371,6 +445,7 @@ ul li a:hover {
     display: block;
     z-index: 3;
     margin-left: 25vw;
+    background: transparent;
   }
 
   header {
@@ -460,6 +535,11 @@ ul li a:hover {
     margin: 20px 0;
   }
 }
+/*████████ █████ ██████  ██     ███████ ████████ 
+   ██    ██   ██ ██   ██ ██      ██         ██    
+   ██    ███████ ██████  ██      █████      ██    
+   ██    ██   ██ ██   ██ ██      ██         ██    
+   ██    ██   ██ ██████  ███████ ███████    ██  */
 
 /* !!!!!!!!!TABLET MEDIA QUERIES!!!!!!!!! */
 @media screen and (min-device-width: 768px) and (max-width: 1024px) {

@@ -1,71 +1,83 @@
-# Getting Started with Create React App
+# ![N/A sheild](https://img.shields.io/badge/license-N%2FA-red) nativeSleepless
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+This project represents the Sleepless tester homepage. Different from the native text, this one was built using react. The navbar and Team scroller both had to be changed because of the use of jQuery. The navbar feature will render a different component based on what size viewport you LOAD the page on so chrome dev tools will not work to show hamburger animations unless the page is loaded with a smaller viewport(hit refresh, should do it). All features and code were written by Adam Kuemmel and no bootstrap was used. Some key features include:
 
-In the project directory, you can run:
+```
+  WHEN the user scrolls
+  THEN the navbar move to top of screen and logos disapear for a better UX
+  WHEN the user scrolls
+  THEN the background image moves slower then the rest of the components
+  WHEN the user is on mobile or tablet
+  THEN the layout is completely responsive
+  WHEN the user swipes the group of team cards
+  THEN the cards move with the swipe
+  WHEN the user scrolls over any button or anchor tag
+  THEN a hover psuedo class is invoked
 
-### `npm start`
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Table of Contents
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+-[Installation](#installation)
 
-### `npm test`
+-[Usage](#usage)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-[Contribution](#contribution)
 
-### `npm run build`
+-[Test](#test)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+-[Technologies](#technologies)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+-[Test](#test)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+-[Questions](#Questions)
 
-### `npm run eject`
+## Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
+npm i
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Test
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
+npm run start
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Usage
 
-## Learn More
+Follow the steps above and react should open the page for you on your browser, if not localhost:3000
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+this project is not curently using any licensing
 
-### Code Splitting
+## SEO
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This project uses standard SEO practices
 
-### Analyzing the Bundle Size
+Mobile:
+![lighthouseMobile](public/img/bestSEOmobile.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Desktop:
+![lighthouseDesktop](public/img/bestSEOdesktop.png)
 
-### Making a Progressive Web App
+## Technologies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+In this project you will find the following technologies and languages:
 
-### Advanced Configuration
+- ReactJS
+- JavaScript
+- HTML
+- CSS
+- ExpressJS
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Questions
 
-### Deployment
+Have more questions? please reach out via message at one of these provdided links
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+github.com/adamkuemmel
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# sleeplessReact
+adamkuemmel@gmail.com

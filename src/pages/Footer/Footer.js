@@ -4,7 +4,7 @@ function Footer() {
       <footer class="center footer">
         <div class="mobileFooter tabletFooter">
           <h2 class="footerTitle">Ready To Get Started?</h2>
-          <div>
+          <div class="footerColor">
             <a href="#" class="button1">
               <button type="button" name="touchButton" class="footerButton">
                 Get In Touch With Us
