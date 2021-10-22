@@ -1,4 +1,4 @@
-# ![N/A sheild](https://img.shields.io/badge/license-N%2FA-red) nativeSleepless
+# ![N/A sheild](https://img.shields.io/badge/license-N%2FA-red) ReactSleepless
 
 ## Description
 
@@ -35,6 +35,8 @@ This project represents the Sleepless tester homepage. Different from the native
 -[Questions](#Questions)
 
 ## Installation
+
+From the aksleepless folder run:
 
 ```
 npm i
